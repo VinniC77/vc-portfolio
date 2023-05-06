@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Open+Sans:ital,wght@0,400;0,700;0,800;1,400;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../css/bootstrap-grid.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="../css/main.css" />
+    <title>Vini Clunc - Desenvolvedor</title>
+  </head>
+  <body>
+    <div class="vc-preloader">
+      <div class="vc-preloader-inner">
+        <img
+          src="../images/lemon-loader.svg"
+          alt="Limao"
+          class="vc-mar-bottom-15"
+        />
+        <p class="vc-text-light vc-mar-top-15">
+          Aguarde um pouquinho... take a deep breath
+        </p>
+      </div>
+    </div>
+
+    <div class="vc-overlay vc-toggle-modal"></div>
+
+    <div class="vc-modal vc-bg-black" id="vc-modal-orcamento">
+      <div class="vc-modal-header">
+        <h1 class="vc-title vc-text-green">Solicite um orçamento</h1>
+        <button class="vc-close-modal vc-toggle-modal">X</button>
+      </div>
+      <div class="vc-modal-body">
+        <div class="row">
+          <div class="col-sm-12">
+            <p class="vc-text-light">
+              Por favor informe os dados abaixo e eu entrarei em contato com
+              você o mais breve possível.
+            </p>
+            <div class="row vc-mar-top-15">
+              <div class="col-sm-12">
+                <form class="vc-form">
+                  <div class="row vc-mar-bottom-15">
+                    <div class="col-sm-12 col-md-6 vc-mar-bottom-15">
+                      <label for="nome" class="vc-text-light">Nome</label>
+                      <input
+                        type="text"
+                        name="nome"
+                        id="vc-nome"
+                        class="vc-field"
+                      />
+                    </div>
+                    <div class="col-sm-12 col-md-6 vc-mar-bottom-15">
+                      <label for="email" class="vc-text-light">E-mail</label>
+                      <input
+                        type="email"
+                        name="email"
+                        id="vc-email"
+                        class="vc-field"
+                      />
+                    </div>
+                    <div class="col-sm-12 col-md-6 vc-mar-bottom-15">
+                      <label for="telefone" class="vc-text-light"
+                        >Telefone</label
+                      >
+                      <input
+                        type="tel"
+                        name="telefone"
+                        id="vc-telefone"
+                        class="vc-field"
+                      />
+                    </div>
+                    <div class="col-sm-12 col-md-6 vc-mar-bottom-15">
+                      <label for="site" class="vc-text-light">Site</label>
+                      <input
+                        type="text"
+                        name="site"
+                        id="vc-site"
+                        class="vc-field"
+                      />
+                    </div>
+                    <div
+                      class="col-sm-12 col-md-12 vc-mar-top-15 vc-mar-bottom-15"
+                    >
+                      <label for="mensagem" class="vc-text-light">
+                        Descreva abaixo o projeto no qual você precisa de
+                        orçamento:
+                      </label>
+                      <textarea
+                        name="mensagem"
+                        id="vc-mensagem"
+                        rows="8"
+                        class="vc-textarea"
+                      >
+                      </textarea>
+                    </div>
+                  </div>
+                  <div class="row justify-content-end vc-mar-top-15">
+                    <div class="col-sm-12 col-md-6">
+                      <button
+                        class="vc-btn vc-btn-large vc-btn-green vc-btn-block"
+                      >
+                        Enviar
+                      </button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <header class="vc-topbar">
+      <div class="vc-logo">
+        <img src="../images/logo.svg" alt="Logo Vini - Desenvolvedor" />
+      </div>
+
+      <nav class="vc-menu">
+        <a class="" href="#">Home</a>
+        <a class="" href="pages/portfolio.html">Portfolio</a>
+        <a class="" href="pages/sobre.html">Sobre</a>
+      </nav>
+    </header>
+    <div class="vc-contact-info vc-bg-black vc-text-light">
+      <div class="vc-contact-info-inner">
+        <h2 class="vc-title vc-text-green">Contato</h2>
+        <p>vinniclunc@hotmail.com</p>
+        <p>+55 (54) 9 9964 7080</p>
+        <div class="vc-social-links">
+          <a class="vc-social" href="#"
+            ><img src="../images/icon-instagram.svg" alt="Logo do Instagram"
+          /></a>
+          <a class="vc-social" href="#"
+            ><img src="../images/icon-twitter.svg" alt="Logo do Twitter"
+          /></a>
+          <a class="vc-social" href="#"
+            ><img src="../images/icon-dribbble.svg" alt="Logo do Dribbble"
+          /></a>
+        </div>
+      </div>
+      <div class="vc-corner"></div>
+    </div>
+    <button class="vc-btn-contact"></button>
+    <div class="vc-page-wrapper">
+      <div class="container-fluid vc-section-offset-top">
+        <div class="row">
+          <div class="col-sm-10 offset-sm-1">
+            <ul class="vc-portfolio-list">
+              <li class="vc-portfolio-item vc-slide-active" data-slide="1">
+                <div class="row">
+                  <div class="col-sm-5">
+                    <div class="vc-portfolio-item-info vc-text-light">
+                      <h1 class="vc-title vc-title-large vc-mar-bottom-15">
+                        Startup Rockets Website
+                      </h1>
+                      <p class="vc-mar-bottom-30">
+                        UX, UI e WordPress para aceleradora de startups.
+                      </p>
+                      <button class="vc-btn vc-btn-large vc-btn-green">
+                        ver projeto
+                      </button>
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="vc-portfolio-thumb">
+                      <div class="vc-portfolio-item-box"></div>
+                      <img
+                        src="../images/thumb-1.jpg"
+                        alt="Imagem do projeto 1"
+                        title="Imagem do projeto 1"
+                      />
+                      <button class="vc-btn vc-btn-medium vc-btn-dark">
+                        visitar site
+                        <ion-icon name="arrow-redo-sharp"></ion-icon>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="vc-slider-item" data-slide="2">
+                <div class="row">
+                  <div class="col-sm-5">
+                    <div class="vc-portfolio-item-info vc-text-light">
+                      <h1 class="vc-title vc-title-large vc-mar-bottom-15">
+                        Manage It! Aplicativo Mobile
+                      </h1>
+                      <p class="vc-mar-bottom-30">
+                        UX, UI e Prototipação para aplicativo mobile.
+                      </p>
+                      <button class="vc-btn vc-btn-large vc-btn-green">
+                        ver projeto
+                      </button>
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="vc-portfolio-thumb">
+                      <div class="vc-portfolio-item-box"></div>
+                      <img
+                        src="../images/thumb-2.jpg"
+                        alt="Imagem do projeto 2"
+                        title="Imagem do projeto 2"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="vc-slider-item" data-slide="3">
+                <div class="row">
+                  <div class="col-sm-5">
+                    <div class="vc-portfolio-item-info vc-text-light">
+                      <h1 class="vc-title vc-title-large vc-mar-bottom-15">
+                        Vinyassa! Aplicativo Mobile
+                      </h1>
+                      <p class="vc-mar-bottom-30">
+                        UX, UI e Prototipação para aplicativo mobile.
+                      </p>
+                      <button class="vc-btn vc-btn-large vc-btn-green">
+                        ver projeto
+                      </button>
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="vc-portfolio-thumb">
+                      <div class="vc-portfolio-item-box"></div>
+                      <img
+                        src="../images/thumb-3.jpg"
+                        alt="Imagem do projeto 3"
+                        title="Imagem do projeto 3"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="vc-slider-item" data-slide="4">
+                <div class="row">
+                  <div class="col-sm-5">
+                    <div class="vc-portfolio-item-info vc-text-light">
+                      <h1 class="vc-title vc-title-large vc-mar-bottom-15">
+                        Conteúdo é Rei! Website para agência
+                      </h1>
+                      <p class="vc-mar-bottom-30">
+                        Webiste para agência de conteúdo digital.
+                      </p>
+                      <button class="vc-btn vc-btn-large vc-btn-green">
+                        ver projeto
+                      </button>
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="vc-portfolio-thumb">
+                      <div class="vc-portfolio-item-box"></div>
+                      <img
+                        src="../images/thumb-4.jpg"
+                        alt="Imagem do projeto 4"
+                        title="Imagem do projeto 4"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="vc-slider-item" data-slide="5">
+                <div class="row">
+                  <div class="col-sm-5">
+                    <div class="vc-portfolio-item-info vc-text-light">
+                      <h1 class="vc-title vc-title-large vc-mar-bottom-15">
+                        Controle Total. Web App
+                      </h1>
+                      <p class="vc-mar-bottom-30">
+                        UX, UI e Prototipação para aplicativo web.
+                      </p>
+                      <button class="vc-btn vc-btn-large vc-btn-green">
+                        ver projeto
+                      </button>
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="vc-portfolio-thumb">
+                      <div class="vc-portfolio-item-box"></div>
+                      <img
+                        src="../images/thumb-5.jpg"
+                        alt="Imagem do projeto 5"
+                        title="Imagem do projeto 5"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/shortcuts/inview.min.js"></script>
+    <script src="../js/anime.min.js"></script>
+    <script src="../js/main.js"></script>
+  </body>
+</html>
